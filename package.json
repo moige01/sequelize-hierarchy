@@ -1,22 +1,23 @@
 {
-  "name": "sequelize-hierarchy",
-  "version": "2.0.4",
-  "description": "Nested hierarchies for Sequelize",
+  "name": "sequelize-hierarchy-v6",
+  "version": "2.1.9",
+  "description": "Nested hierarchies for Sequelize - Compatible with Sequelize V6",
   "main": "index.js",
   "author": {
     "name": "Overlook Motel"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/overlookmotel/sequelize-hierarchy.git"
+    "url": "https://github.com/sugud0r/sequelize-hierarchy.git"
   },
   "bugs": {
-    "url": "https://github.com/overlookmotel/sequelize-hierarchy/issues"
+    "url": "https://github.com/sugud0r/sequelize-hierarchy/issues"
   },
   "dependencies": {
     "is-generator": "^1.0.3",
     "lodash": "^4.17.11",
-    "semver-select": "^1.1.0"
+    "semver-select": "^1.1.0",
+	"bluebird": "^3.7.2"
   },
   "devDependencies": {
     "@overlookmotel/eslint-config": "^2.1.2",
@@ -36,7 +37,7 @@
     "pg": "^7.10.0",
     "pg-hstore": "^2.3.2",
     "pg-native": "^3.0.0",
-    "sequelize": "^5.7.5",
+    "sequelize": "^6.7.5",
     "sqlite3": "^4.0.6",
     "tedious": "^6.1.1"
   },
